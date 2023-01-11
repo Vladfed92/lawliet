@@ -6,7 +6,6 @@
 body {
 	height: 100%;
 	width: 100%;
-	max-width: 1440px;
 	margin: 0 auto;
 }
 
@@ -43,8 +42,6 @@ body {
 		height: 100px;
 		padding: 32px 0 0 0;
 
-
-
 		@media (max-width: 760px) {
 			background: #094B72;
 			height: 270px;
@@ -80,14 +77,13 @@ body {
 			@media (max-width: 760px) {
 				flex-direction: column;
 				position: relative;
-
 			}
 		}
 
 		&__item {
 			font-family: 'Poppins';
 			font-style: normal;
-			font-weight: 410;
+			font-weight: 400;
 			font-size: 12px;
 			letter-spacing: 1.5px;
 			text-transform: uppercase;
@@ -96,7 +92,6 @@ body {
 				padding-bottom: 20px;
 				font-size: 18px;
 			}
-
 
 			a {
 				color: #2D2F30;
@@ -126,8 +121,6 @@ body {
 			position: fixed;
 		}
 	}
-
-
 }
 
 
@@ -195,7 +188,6 @@ body {
 		padding-top: 31px;
 		z-index: 2;
 
-
 		@media (max-width: 1160px) {
 			margin-bottom: 25px;
 		}
@@ -227,7 +219,6 @@ body {
 	&__trust-companies {
 		margin-top: 115px;
 		margin-bottom: 45px;
-
 
 		@media (max-width: 1160px) {
 			display: flex;
@@ -276,7 +267,6 @@ body {
 			flex-wrap: wrap;
 			justify-content: space-between;
 			align-content: space-between;
-
 		}
 	}
 
@@ -291,7 +281,6 @@ body {
 			position: static;
 			margin: -200px auto auto auto;
 		}
-
 	}
 
 	.introduction__lawyer-container {
@@ -322,7 +311,6 @@ body {
 		@media (max-width: 760px) {
 			position: static;
 			margin: -10px auto 0 auto;
-
 		}
 
 		@media (max-width: 500px) {
@@ -363,7 +351,6 @@ body {
 	background: #E7F6FF;
 	border-radius: 26.5px;
 
-
 	@media (max-width: 760px) {
 		max-width: 350px;
 	}
@@ -385,7 +372,6 @@ body {
 		@media (max-width: 760px) {
 			width: 66px;
 			height: 28px;
-
 		}
 	}
 
@@ -401,11 +387,9 @@ body {
 		@media (max-width: 760px) {
 			line-height: 32px;
 			font-size: 11px;
-
 		}
 	}
 }
-
 
 .intrubuction {
 
@@ -424,7 +408,6 @@ body {
 	height: 100%;
 	width: 100%;
 }
-
 
 .why-section {
 	display: flex;
@@ -582,7 +565,7 @@ body {
 		height: 32px;
 		font-family: 'Poppins';
 		font-style: normal;
-		font-weight: 410;
+		font-weight: 400;
 		font-size: 18px;
 		line-height: 32px;
 		letter-spacing: 0.5px;
@@ -643,7 +626,7 @@ body {
 		height: 32px;
 		font-family: 'Poppins';
 		font-style: normal;
-		font-weight: 410;
+		font-weight: 400;
 		font-size: 18px;
 		line-height: 32px;
 		letter-spacing: 0.3px;
@@ -652,7 +635,6 @@ body {
 
 		@media (max-width: 460px) {
 			font-size: 16px;
-
 		}
 	}
 }
@@ -665,7 +647,6 @@ body {
 	width: 100%;
 	height: 100%;
 	background: #F2F7FF;
-
 }
 
 .client-responses {
@@ -686,7 +667,6 @@ body {
 		line-height: 64px;
 		text-align: center;
 		letter-spacing: 0.5px;
-		font-feature-settings: 'salt' on, 'liga' off;
 		color: #2D2F30;
 	}
 
@@ -716,7 +696,7 @@ body {
 	&__text {
 		background: white;
 		border-radius: 10px;
-		box-shadow: 0px 18px 58px 16px rgba(0, 0, 0, 0.03);
+		box-shadow: 0px 18px 58px 16px rgba(0, 0, 0, 0.015);
 		position: relative;
 		width: 100%;
 		max-width: 540px;
@@ -763,7 +743,7 @@ body {
 	&__subtitle {
 		font-family: 'Poppins';
 		font-style: normal;
-		font-weight: 410;
+		font-weight: 400;
 		font-size: 14px;
 		line-height: 24px;
 		text-align: center;
@@ -855,7 +835,7 @@ body {
 	&__subtitle {
 		font-family: 'Poppins';
 		font-style: normal;
-		font-weight: 410;
+		font-weight: 400;
 		font-size: 24px;
 		line-height: 36px;
 		letter-spacing: 0.5px;
@@ -905,7 +885,6 @@ body {
 
 	&__icon {
 		margin-right: 17px;
-
 	}
 
 	&__button-text {
@@ -916,8 +895,6 @@ body {
 		line-height: 36px;
 		letter-spacing: 0.5px;
 		color: #F9F8F9;
-
-
 	}
 }
 
@@ -961,8 +938,6 @@ body {
 		@media (max-width: 640px) {
 			margin-top: 10px;
 		}
-
-
 	}
 
 	&__column {
@@ -1000,7 +975,6 @@ body {
 			}
 		}
 	}
-
 }
 
 .social {
@@ -1036,6 +1010,9 @@ body {
 	a {
 		margin-right: 16px;
 	}
+}
 
-
+// ------- splide -------//
+.splide__paginatio.splide__pagination--ltr {
+	margin-top: 50px;
 }

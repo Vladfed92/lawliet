@@ -10,7 +10,21 @@ $(document).ready(function () {
 });
 
 new Splide('.splide', {
-	type: 'loop',
+	type: 'slide',
 	perPage: 2,
+	focus: 0,
+	omitEnd: true,
+	rewind: true,
+	flickMaxPages: 1,
+	perMove: 1,
+	arrows: false,
+	mediaQuery: 'max',
+	breakpoints: {
+		1140: {
+			fixedWidth: 'auto',
+		
+		}
+	}
+
 
 }).mount();

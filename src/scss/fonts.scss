@@ -1,8 +1,8 @@
 @font-face {
-	font-family: Inter;
+	font-family: PlayfairDisplay;
 	font-display: swap;
-	src: url("../fonts/Inter-Bold.woff2") format("woff2"), url("../fonts/Inter-Bold.woff") format("woff");
-	font-weight: 700;
+	src: url("../fonts/PlayfairDisplay-Black.woff2") format("woff2"), url("../fonts/PlayfairDisplay-Black.woff") format("woff");
+	font-weight: 900;
 	font-style: normal;
 }
 @font-face {
@@ -20,23 +20,9 @@
 	font-style: normal;
 }
 @font-face {
-	font-family: PlayfairDisplay;
+	font-family: Inter;
 	font-display: swap;
-	src: url("../fonts/PlayfairDisplay-Regular.woff2") format("woff2"), url("../fonts/PlayfairDisplay-Regular.woff") format("woff");
-	font-weight: 400;
-	font-style: normal;
-}
-@font-face {
-	font-family: PlayfairDisplay;
-	font-display: swap;
-	src: url("../fonts/PlayfairDisplay-Black.woff2") format("woff2"), url("../fonts/PlayfairDisplay-Black.woff") format("woff");
-	font-weight: 900;
-	font-style: normal;
-}
-@font-face {
-	font-family: PlusJakartaSans;
-	font-display: swap;
-	src: url("../fonts/PlusJakartaSans-Bold.woff2") format("woff2"), url("../fonts/PlusJakartaSans-Bold.woff") format("woff");
+	src: url("../fonts/Inter-Bold.woff2") format("woff2"), url("../fonts/Inter-Bold.woff") format("woff");
 	font-weight: 700;
 	font-style: normal;
 }
@@ -48,10 +34,17 @@
 	font-style: normal;
 }
 @font-face {
+	font-family: PlayfairDisplay;
+	font-display: swap;
+	src: url("../fonts/PlayfairDisplay-Regular.woff2") format("woff2"), url("../fonts/PlayfairDisplay-Regular.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
 	font-family: Poppins;
 	font-display: swap;
-	src: url("../fonts/Poppins-Black.woff2") format("woff2"), url("../fonts/Poppins-Black.woff") format("woff");
-	font-weight: 900;
+	src: url("../fonts/Poppins-Medium.woff2") format("woff2"), url("../fonts/Poppins-Medium.woff") format("woff");
+	font-weight: 500;
 	font-style: normal;
 }
 @font-face {
@@ -62,24 +55,10 @@
 	font-style: normal;
 }
 @font-face {
-	font-family: Poppins;
+	font-family: PlusJakartaSans;
 	font-display: swap;
-	src: url("../fonts/Poppins-Bold.woff2") format("woff2"), url("../fonts/Poppins-Bold.woff") format("woff");
+	src: url("../fonts/PlusJakartaSans-Bold.woff2") format("woff2"), url("../fonts/PlusJakartaSans-Bold.woff") format("woff");
 	font-weight: 700;
-	font-style: normal;
-}
-@font-face {
-	font-family: Poppins;
-	font-display: swap;
-	src: url("../fonts/Poppins-ExtraBold.woff2") format("woff2"), url("../fonts/Poppins-ExtraBold.woff") format("woff");
-	font-weight: 800;
-	font-style: normal;
-}
-@font-face {
-	font-family: Poppins;
-	font-display: swap;
-	src: url("../fonts/Poppins-Medium.woff2") format("woff2"), url("../fonts/Poppins-Medium.woff") format("woff");
-	font-weight: 500;
 	font-style: normal;
 }
 @font-face {
